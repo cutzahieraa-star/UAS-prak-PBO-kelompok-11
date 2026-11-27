@@ -27,7 +27,6 @@ public abstract class Akun {
 
     /**
      * Mengambil ID akun pengguna.
-     *
      * @return ID akun
      */
     public String getId() {
@@ -36,7 +35,6 @@ public abstract class Akun {
 
     /**
      * Mengambil username akun pengguna.
-     *
      * @return username akun
      */
     public String getUsername() {
