@@ -1,8 +1,8 @@
 package rental;
 
 /**
- * Exception yang dilempar ketika kredensial (username atau password)
- * tidak sesuai saat pengguna melakukan proses login.
+ * Kelas exception khusus untuk menangani kegagalan autentikasi,
+ * yang dipicu apabila username atau password yang dimasukkan tidak cocok.
  *
  * @author Anggota 2
  * @version 1.0
@@ -10,9 +10,10 @@ package rental;
 public class LoginGagalException extends Exception {
 
     /**
-     * Membuat instance baru {@code LoginGagalException} dengan pesan kesalahan tertentu.
+     * Menginisialisasi objek {@code LoginGagalException} beserta keterangan
+     * alasan gagalnya proses login.
      *
-     * @param pesan pesan detail yang menjelaskan penyebab kegagalan login
+     * @param pesan informasi rinci mengenai penyebab gagal login
      */
     public LoginGagalException(String pesan) {
         super(pesan);
