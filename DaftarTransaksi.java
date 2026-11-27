@@ -1,7 +1,6 @@
 package rental;
 
 // Class untuk mengelola daftar transaksi dan invoice.
-// Bagian anggota 3.
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
