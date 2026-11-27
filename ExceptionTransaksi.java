@@ -1,8 +1,6 @@
 package rental;
 
 // ExceptionTransaksi.java : PembayaranGagalException + TransaksiTidakValidException
-// BAGIAN ANGGOTA 3 (Transaksi, pembayaran, invoice, dan pengembalian)
-
 // Exception yang digunakan ketika pembayaran gagal, seperti rekening kosong
 // atau uang tunai yang dibayarkan kurang dari total.
 class PembayaranGagalException extends Exception {
